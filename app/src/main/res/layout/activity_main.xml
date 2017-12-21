@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/butShow"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:text="Concat" />
+
+    <Button
+        android:id="@+id/butRange"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="Range" />
+
+    <Button
+        android:id="@+id/butJust"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:text="Just" />
+
+    <Button
+        android:id="@+id/butIterate"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="Iterate" />
+
+    <Button
+        android:id="@+id/butInterval"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:text="Interval" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="Range" />
+
+    <Button
+        android:id="@+id/butFlowable"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="Flowable" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/butMap"
+            android:layout_width="190dp"
+            android:layout_height="37dp"
+            android:text="map" />
+
+        <Button
+            android:id="@+id/butRane"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Range" />
+
+        <Button
+            android:id="@+id/butust"
+            android:layout_width="190dp"
+            android:layout_height="37dp"
+            android:text="Just" />
+
+        <Button
+            android:id="@+id/butItrate"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Iterate" />
+
+        <Button
+            android:id="@+id/butInerval"
+            android:layout_width="190dp"
+            android:layout_height="37dp"
+            android:text="Interval" />
+
+        <Button
+            android:id="@+id/buton"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Range" />
+
+        <Button
+            android:id="@+id/butlowable"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Flowable" />
+    </LinearLayout>
+
+
+</LinearLayout>
